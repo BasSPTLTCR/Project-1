@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+  z-index: -5;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Mukta', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #002B1D;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+li a:hover {
+  background-color: #111;
+}
+li {
+  float: left;
+}
+
+/* Nav Bar */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 20vw;
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 0.8rem 1rem;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navBar {
+  position: absolute;
+  width: 100%;
+  margin-top: 0%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  font-size: 2rem;
+}
+
+.img-logo {
+  height:10vh;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+
+/* main */
+
+/* fiddle maar een beetje met de img en de main naar smaak */
+
+.box-home {
+  font-size: 2rem;
+  position: fixed;
+  text-align: center;
+  background-color: white;
+  /* border: 5px solid rgb(11, 70, 138); */
+  width: 100%;
+  margin-top: 6.23%;
+}
+
+.img-home{
+  border: 5px solid rgb(11, 70, 138);
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #002B1D;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  left: 0;
+}
