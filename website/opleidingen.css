@@ -7,12 +7,15 @@
 html {
   font-size: 62.5%;
   font-family: 'Mukta', sans-serif;
-  font-size: 1rem;
 }
 
 body {
   background-color: white;
   z-index: -5;
+}
+
+a {
+  color: black;
 }
 
 ul {
@@ -84,13 +87,80 @@ li {
   padding-top: 5%;
 }
 
+/* main */
+
 .title {
   position: relative;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -10%);
+}
+
+h2 {
+  text-align: center;
+}
+
+main:not(.title) {
+  font-size: 2rem;
+}
+
+.softdev {
+  border-style: solid;
+  padding: 0% 1% 16% 1%;
+  margin: 0% 1% 2% 1%;
+  background-color: gray;
+}
+
+.softdev p {
+  float: left;
+  width: 50%;
+}
+
+.softdev img {
+  position: absolute;
+  float: right;
+  width: 50%;
+  scale: 50%;
+  top: 10%;
+}
+
+.cmt {
+  border-style: solid;
+  padding: 0% 1% 16% 1%;
+  margin: 0% 1% 2% 1%;
+  background-color: gray;
+}
+
+.cmt img {
+  position: absolute;
+  float: left;
+  width: 50%;
+  scale: 50%;
+  top: 57%;
+}
+
+.cmt p {
+  float: right;
+  width: 50%;
+}
+
+.sad{
+  border-style: solid;
+  padding: 0% 1% 16% 1%;
+  margin: 0% 1% 2% 1%;
+  background-color: gray;
+}
+
+.sad p {
+  float: left;
+  width: 50%;
+}
+
+.sad img {
+  position: absolute;
+  float: right;
+  width: 50%;
+  scale: 50%;
+  top: 98%;
 }
 
 
@@ -103,7 +173,6 @@ li {
   text-align: center;
   padding: 10px;
   position: absolute;
-  bottom: 0;
   width: 100%;
   left: 0;
 }
