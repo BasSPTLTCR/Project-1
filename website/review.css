@@ -81,3 +81,24 @@
     padding-left: 10%;
     padding-top: 5%;
   }
+
+
+
+  /* footer */
+
+.footer {
+  font-size: 2rem;
+  background-color: #002B1D;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
