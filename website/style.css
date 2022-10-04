@@ -83,7 +83,7 @@ li {
 }
 
 
-/* main */
+/* main home */
 
 .box-home {
   position: absolute;
@@ -104,6 +104,91 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* main opleidingen */
+
+.title-opleidingen {
+  position: relative;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.header2-opl {
+  text-align: center;
+}
+
+.main-opl:not(.title-opleidingen) {
+  font-size: 2rem;
+}
+
+.softdev {
+  position: flex;
+  justify-content: space-between;
+  border-style: solid;
+  /* padding: 0% 1% 16% 1%;
+  margin: 0% 1% 2% 1%; */
+  background-color: gray;
+}
+
+.softdev-flex {
+  /* position: flex;
+  justify-content: space-between; */
+}
+
+.softdev p {
+  background-color: blue;
+  /* float: left;
+  width: 50%; */
+}
+
+.softdev img {
+  background-color: red;
+  /* position: absolute;
+  float: right;
+  width: 50%; */
+  scale: 80%;
+  /* top: 10%; */
+}
+
+/* .cmt {
+  border-style: solid;
+  padding: 0% 1% 16% 1%;
+  margin: 0% 1% 2% 1%;
+  background-color: gray;
+}
+
+.cmt img {
+  position: absolute;
+  float: left;
+  width: 50%;
+  scale: 50%;
+  top: 57%;
+}
+
+.cmt p {
+  float: right;
+  width: 50%;
+}
+
+.sad{
+  border-style: solid;
+  padding: 0% 1% 16% 1%;
+  margin: 0% 1% 2% 1%;
+  background-color: gray;
+}
+
+.sad p {
+  float: left;
+  width: 50%;
+}
+
+.sad img {
+  position: absolute;
+  float: right;
+  width: 50%;
+  scale: 50%;
+  top: 98%;
+} */
 
 /* footer */
 
