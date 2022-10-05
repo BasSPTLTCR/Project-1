@@ -86,7 +86,7 @@ li {
 /* main home */
 
 .box-home {
-  position: absolute;
+  display: flex;
   background-color: white;
   width: 100%;
   background-image: url("./img/img-home.jpg");
@@ -107,6 +107,7 @@ li {
 
 /* main opleidingen */
 
+
 .title-opleidingen {
   position: relative;
   font-size: 3rem;
@@ -116,6 +117,11 @@ li {
 .header2-opl {
   text-align: center;
 }
+
+.main-opl a {
+  color: black;
+  text-decoration: none;
+} 
 
 .main-opl:not(.title-opleidingen) {
   font-size: 2rem;
@@ -134,7 +140,6 @@ li {
 
 .softdev p {
   align-self: flex-start;
-  background-color: blue;
   width: 50%;
 }
 
@@ -159,7 +164,6 @@ li {
 
 .cmt p {
   align-self: flex-start;
-  background-color: blue;
   width: 50%;
 }
 
@@ -176,7 +180,6 @@ li {
 
 .sad p {
   align-self: flex-start;
-  background-color: blue;
   width: 50%;
 }
 
@@ -186,10 +189,43 @@ li {
 
 /* main examenplan */
 
+.main-examen {
+text-align: center;   
+}
+
+/* main oudergesprekken */
+
+.main-ouder {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+.main-ouder p {
+  margin-bottom: 3%;
+  margin-left: 1%;
+}
+
+.h1-oudergesprekken { 
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.h2-oudergesprekken{
+  margin-left:  1%;
+}
+
+.oudergesprekimg {
+  scale: 50%;
+}
+
+/* main Canvas */
+
 
 
 
 /* footer */
+
 
 .footer {
   display: flex;
@@ -205,3 +241,5 @@ li {
   text-decoration: none;
   font-weight: 500;
 }
+
+
