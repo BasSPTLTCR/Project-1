@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 body{
   background-color: white;
   z-index: -5;
@@ -11,6 +12,8 @@ body{
 =======
 
 >>>>>>> master
+=======
+>>>>>>> f04165f64b5335d8a4792fdbc01dc679bc176c2f
 html {
   font-size: 62.5%;
   font-family: 'Mukta', sans-serif;
@@ -25,7 +28,15 @@ body{
   z-index: -5;
 }
 
+<<<<<<< HEAD
 >>>>>>> master
+=======
+a {
+  text-decoration: none;
+  color: black;
+}
+
+>>>>>>> f04165f64b5335d8a4792fdbc01dc679bc176c2f
 ul {
   list-style-type: none;
   margin: 0;
@@ -348,8 +359,20 @@ text-align: center;
 
 /* main locatiegids */
 
-.main-locatie {
+.main-locatiegids h1 {
+  text-align: center;
+  margin-top: 2.1%;
+}
 
+.container-locatie {
+  display: flex;
+  justify-content: space-around;
+  margin: 3%;
+}
+
+.container-locatie img {
+  width: 400px;
+  height: auto;
 }
 
 
@@ -364,6 +387,7 @@ text-align: center;
   background-color: #002B1D;
   padding: 10px;
   width: 100%;
+  
 }
 
 .footer a {
