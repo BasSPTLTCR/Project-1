@@ -3,24 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-body{
-  background-color: white;
-  z-index: -5;
-}
-=======
-
->>>>>>> master
-=======
->>>>>>> f04165f64b5335d8a4792fdbc01dc679bc176c2f
 html {
   font-size: 62.5%;
   font-family: 'Mukta', sans-serif;
 }
 
-<<<<<<< HEAD
-=======
 body{
   background-color: white;
   background-color: rgb(206, 232, 206);
@@ -28,15 +15,11 @@ body{
   z-index: -5;
 }
 
-<<<<<<< HEAD
->>>>>>> master
-=======
 a {
   text-decoration: none;
   color: black;
 }
 
->>>>>>> f04165f64b5335d8a4792fdbc01dc679bc176c2f
 ul {
   list-style-type: none;
   margin: 0;
@@ -44,11 +27,7 @@ ul {
   overflow: hidden;
   background-color: #002B1D;
 }
-<<<<<<< HEAD
-
-=======
  
->>>>>>> master
 li a {
   display: block;
   color: white;
@@ -69,25 +48,16 @@ li {
 
 .dropdown-content {
   display: none;
-<<<<<<< HEAD
-  position: absolute;
-  background-color: #000000;
-  min-width: 20vw;
-=======
   position: fixed;
   background-color: #003816;
   min-width: 10vw;
->>>>>>> master
   box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0);
   z-index: 1;
 }
 
 .dropdown-content a {
   color: white;
-<<<<<<< HEAD
-=======
   
->>>>>>> master
   padding: 0.8rem 1rem;
   display: block;
   text-align: left;
@@ -98,11 +68,7 @@ li {
 }
 
 .navBar {
-<<<<<<< HEAD
-  position: absolute;
-=======
   position: relative;
->>>>>>> master
   width: 100%;
   margin-top: 0%;
   left: 0;
@@ -111,15 +77,12 @@ li {
   font-size: 2rem;
 }
 
-<<<<<<< HEAD
-=======
 .nav-items {
   padding: 20px;
   float: right;
   font-size: 3rem;
 }
 
->>>>>>> master
 .img-logo {
   height:10vh;
   padding-left: 10%;
@@ -127,38 +90,6 @@ li {
 }
 
 
-<<<<<<< HEAD
-/* main */
-
-/* fiddle maar een beetje met de img en de main naar smaak */
-
-.box-home {
-  font-size: 2rem;
-  position: fixed;
-  text-align: center;
-  background-color: white;
-  /* border: 5px solid rgb(11, 70, 138); */
-  width: 100%;
-  margin-top: 6.23%;
-}
-
-.img-home{
-  border: 5px solid rgb(11, 70, 138);
-}
-
-
-/* footer */
-
-.footer {
-  background-color: #002B1D;
-  text-align: center;
-  padding: 10px;
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-  left: 0;
-}
-=======
 /* main home */
 
 .box-home {
@@ -395,4 +326,3 @@ text-align: center;
   text-decoration: none;
   font-weight: 500;
 }
->>>>>>> master
