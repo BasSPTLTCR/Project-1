@@ -1,43 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>opleidingen</title>
-  </head>
-  <body>
-    <main>
-      <header>
-        <h1>Opleidingen</h1>
-      </header>
-      <section>
-        <h2>Software developer</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
-          deleniti rem atque facilis, quis minima temporibus placeat voluptate
-          magni repudiandae consequuntur asperiores, quisquam nobis laborum vel
-          mollitia aspernatur voluptas possimus.
-        </p>
-      </section>
-      <section>
-        <h2>Creative media technologie</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
-          praesentium recusandae repudiandae veniam nesciunt. Repellendus sed
-          architecto minus, obcaecati quidem necessitatibus in, omnis dolor
-          beatae deleniti sequi, voluptatem soluta sint?
-        </p>
-      </section>
-      <section>
-        <h2>System and devices</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil
-          quia nemo perspiciatis atque odio harum dolorem minus. Officiis
-          deleniti optio illum impedit dolores quaerat repudiandae ad sed, non
-          dolor.
-        </p>
-      </section>
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>opleidingen</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navBar">
+
+    <ul>
+      <li><a href="index.html"><img href="index.html" class="img-logo" src="./img/tcr.png"
+            alt="Logo van Techniek college Rotterdam" /></a></li>
+
+      <div class="nav-items">
+        <li><a href="canvas.html">Canvas</a></li>
+        <li><a href="eduarte.html">Eduarte</a></li>
+
+        <li class="dropdown">
+          <a href="opleidingen.html" class="dropbtn">Opleiding</a>
+          <div class="dropdown-content">
+            <a href="opleidingswijzer.html">opleidingswijzer</a>
+            <a href="locatiegids.html">Locatiegids</a>
+            <a href="software.html">Software</a>
+            <a href="begeleiding.html">Begeleiding</a>
+          </div>
+        </li>
+
+        <li class="dropdown">
+          <a href="" class="dropbtn">Examen</a>
+          <div class="dropdown-content">
+            <a href="examenplan.html">Examenplan</a>
+            <a href="bsa.html">BSA</a>
+          </div>
+        </li>
+
+        <li><a href="oudergesprekken.html">Oudergesprekken</a></li>
+      </div>
+
+    </ul>
+
+  </nav>
+
+  <main class="main-opl">
+    <header class="title-opleidingen">
+      <h1>Opleidingen</h1>
+    </header>
+    <section class="softdev">
+      <a target="_blank" href="https://www.techniekcollegerotterdam.nl/opleidingen/it-en-online/software-developer-bol">
+        <h2 class="header2-opl">Software developer</h2>
+      </a>
+    <div class="softdev-flex">
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
+        deleniti rem atque facilis, quis minima temporibus placeat voluptate
+        magni repudiandae consequuntur asperiores, quisquam nobis laborum vel
+        mollitia aspernatur voluptas possimus.
+      </p>
+      <img src="./img/softdev.jpg" alt="">
+    </div>
+    </section>
+    <section class="cmt">
+      <a
+      target="_blank" href="https://www.techniekcollegerotterdam.nl/opleidingen/it-en-online/creative-media-technology-software-developer-bol">
+        <h2 class="header2-opl">Creative media technologie</h2>
+      </a>
+      <div class="cmt-flex">
+      <img src="./img/cmt.jpg" alt="">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
+        praesentium recusandae repudiandae veniam nesciunt. Repellendus sed
+        architecto minus, obcaecati quidem necessitatibus in, omnis dolor
+        beatae deleniti sequi, voluptatem soluta sint?
+      </p>
+    </div>
+    </section>
+    <section class="sad">
+      <a target="_blank" href="https://www.techniekcollegerotterdam.nl/opleidingen/it-en-online/expert-it-systems-and-devices-bol">
+        <h2 class="header2-opl">System and devices</h2>
+      </a>
+      <div class="sad-flex">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil
+        quia nemo perspiciatis atque odio harum dolorem minus. Officiis
+        deleniti optio illum impedit dolores quaerat repudiandae ad sed, non
+        dolor.
+      </p>
+
+      <img src="./img/sad.jpg" alt="">
+    </div>
+    </section>
+  </main>
+  <footer class="footer"><a href="overons.html">Over Ons</a></footer>
+</body>
+
 </html>

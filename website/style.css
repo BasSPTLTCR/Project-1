@@ -3,13 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: white;
-  z-index: -5;
-}
 html {
   font-size: 62.5%;
   font-family: 'Mukta', sans-serif;
+}
+
+body{
+  background-color: white;
+  background-color: rgb(206, 232, 206);
+  font-size: 2rem;
+  z-index: -5;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 ul {
@@ -19,7 +27,7 @@ ul {
   overflow: hidden;
   background-color: #002B1D;
 }
-
+ 
 li a {
   display: block;
   color: white;
@@ -41,14 +49,15 @@ li {
 .dropdown-content {
   display: none;
   position: fixed;
-  background-color: #000000;
-  min-width: 20vw;
+  background-color: #003816;
+  min-width: 10vw;
   box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0);
   z-index: 1;
 }
 
 .dropdown-content a {
   color: white;
+  
   padding: 0.8rem 1rem;
   display: block;
   text-align: left;
@@ -59,13 +68,19 @@ li {
 }
 
 .navBar {
-  position: absolute;
+  position: relative;
   width: 100%;
   margin-top: 0%;
   left: 0;
   top: 0;
   overflow: hidden;
   font-size: 2rem;
+}
+
+.nav-items {
+  padding: 20px;
+  float: right;
+  font-size: 3rem;
 }
 
 .img-logo {
@@ -75,33 +90,239 @@ li {
 }
 
 
-/* main */
-
-/* fiddle maar een beetje met de img en de main naar smaak */
+/* main home */
 
 .box-home {
-  font-size: 2rem;
-  position: fixed;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   background-color: white;
-  /* border: 5px solid rgb(11, 70, 138); */
   width: 100%;
-  margin-top: 6.23%;
+  background-image: url("./img/img-home.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding-bottom: 31.5%;
 }
 
-.img-home{
-  border: 5px solid rgb(11, 70, 138);
+.article-home {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 2px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 2rem;
 }
+
+/* main opleidingen */
+
+
+.title-opleidingen {
+  position: relative;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.header2-opl {
+  text-align: center;
+}
+
+.main-opl a {
+  color: black;
+  text-decoration: none;
+} 
+
+.main-opl:not(.title-opleidingen) {
+  font-size: 2rem;
+}
+
+.softdev {
+  border-style: solid;
+  margin: 0% 3% 2% 3%;
+  background-color: gray;
+}
+
+.softdev-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.softdev p {
+  align-self: flex-start;
+  width: 50%;
+}
+
+.softdev img {
+  margin-bottom: 2%;  
+}
+
+.cmt {
+  border-style: solid;
+  margin: 0% 3% 2% 3%;
+  background-color: gray;
+}
+
+.cmt-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cmt img {
+  margin-bottom: 2%;
+}
+
+.cmt p {
+  align-self: flex-start;
+  width: 50%;
+}
+
+.sad{
+  border-style: solid;
+  margin: 0% 3% 2% 3%;
+  background-color: gray;
+}
+
+.sad-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sad p {
+  align-self: flex-start;
+  width: 50%;
+}
+
+.sad img {
+  margin-bottom: 2%;
+}
+
+/* main examenplan */
+
+.main-examen {
+text-align: center;   
+}
+
+/* main oudergesprekken */
+
+.main-ouder {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+.main-ouder p {
+  margin-bottom: 3%;
+  margin-left: 1%;
+}
+
+.h1-oudergesprekken { 
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.h2-oudergesprekken{
+  margin-left:  1%;
+}
+
+.oudergesprekimg {
+  scale: 50%;
+}
+
+/* main Canvas */
+
+.main-canvas {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  margin: 0% 2%;
+}
+
+.img-canvas {
+  height: 300px;
+  width: auto;
+  margin-top: 3%;
+  margin-right: 3%;
+}
+
+.uitleg-curs {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* main eduarte */
+
+.main-eduarte {
+  margin-top: 2%;
+  margin-left: 2%;
+  font-size: 2rem;
+}
+
+.eduarte-cijfers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eduarte-cijfers img {
+  width: 400px;
+  height: auto;
+}
+
+/* main begeleiding */
+
+.main-begeleiding {
+
+}
+
+/* main BSA */
+
+.main-bsa {
+
+}
+
+/* main over ons */
+
+.main-overons {
+
+}
+
+/* main opleidingswijzer */
+
+.main-opleidingswijzer {
+
+}
+
+/* main locatiegids */
+
+.main-locatiegids h1 {
+  text-align: center;
+  margin-top: 2.1%;
+}
+
+.container-locatie {
+  display: flex;
+  justify-content: space-around;
+  margin: 3%;
+}
+
+.container-locatie img {
+  width: 400px;
+  height: auto;
+}
+
 
 
 /* footer */
 
+
 .footer {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
   background-color: #002B1D;
-  text-align: center;
   padding: 10px;
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-  left: 0;
+  width: 100%;
+  
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
 }
