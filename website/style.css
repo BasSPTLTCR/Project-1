@@ -207,6 +207,10 @@ text-align: center;
   font-size: 2rem;
 }
 
+.container-oudergesprekken {
+  display: flex;
+}
+
 .main-ouder p {
   margin-bottom: 3%;
   margin-left: 1%;
