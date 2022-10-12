@@ -207,6 +207,10 @@ text-align: center;
   font-size: 2rem;
 }
 
+.container-oudergesprekken {
+  display: flex;
+}
+
 .main-ouder p {
   margin-bottom: 3%;
   margin-left: 1%;
@@ -267,8 +271,21 @@ text-align: center;
 /* main begeleiding */
 
 .main-begeleiding {
-
+  margin-left: 2rem;
 }
+
+.jou-moeder1{
+  
+  text-align: center;
+  }
+  .zeb{
+    margin: 2rem;
+    display: flex;
+  flex-direction: column;
+  }
+  .link{
+  color: red;
+  }
 
 /* main BSA */
 
