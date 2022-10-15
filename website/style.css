@@ -325,30 +325,58 @@ text-align: center;
 /* main BSA */
 
 .main-bsa {
+  
+}
 
 }
 
 .h1bsa {
   text-align: center;
 }
+.pbsa{
+  display: flex;
 
+}
+.divbsa{
+  display: flex;
+justify-content: space-between;
+flex-direction: row-reverse;
+padding: 0rem 4rem;
+}
+ 
 /* main over ons */
 
 .main-overons {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 }
 
 .bas-sec {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row-reverse;
 }
+
+
 
 .bas-sec div {
   width: 40vw;
 }
+/* 
+.rouhi-sec img {
+  height: 800px;
+  width: 800px;
+} */
 
+.rouhi-sec{
+  margin-top: 5rem;
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.rouhi-sec div{
+  width: 40vw;
+}
 /* main opleidingswijzer */
 
 .main-opleidingswijzer {
@@ -418,10 +446,23 @@ table, th, tr, td {
   background-color: #002B1D;
   padding: 10px;
   width: 100%;
+
 }
 
 .footer a {
   color: white;
   text-decoration: none;
   font-weight: 500;
+
+}
+
+.h1software{
+  text-align: center;
+
+}
+
+.vid{
+  display: flex;
+  width: 100vw;
+  align-items: flex-end;
 }
