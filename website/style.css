@@ -3,12 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
   font-family: 'Mukta', sans-serif;
 }
 
-body{
+body {
   background-color: white;
   background-color: rgb(206, 232, 206);
   font-size: 2rem;
@@ -27,7 +28,7 @@ ul {
   overflow: hidden;
   background-color: #002B1D;
 }
- 
+
 li a {
   display: block;
   color: white;
@@ -88,7 +89,7 @@ li {
 }
 
 .img-logo {
-  height:10vh;
+  height: 10vh;
   padding-left: 10%;
   padding-top: 5%;
 }
@@ -137,7 +138,7 @@ li {
 .main-opl a {
   color: black;
   text-decoration: none;
-} 
+}
 
 .main-opl:not(.title-opleidingen) {
   font-size: 2rem;
@@ -159,7 +160,7 @@ li {
 }
 
 .softdev img {
-  margin-bottom: 2%;  
+  margin-bottom: 2%;
 }
 
 .cmt {
@@ -181,7 +182,7 @@ li {
   width: 50%;
 }
 
-.sad{
+.sad {
   margin: 0% 3% 2% 3%;
   background-color: gray;
 }
@@ -203,7 +204,7 @@ li {
 /* main examenplan */
 
 .main-examen {
-text-align: center;   
+  text-align: center;
 }
 
 /* main oudergesprekken */
@@ -225,13 +226,13 @@ text-align: center;
   margin-left: 1%;
 }
 
-.h1-oudergesprekken { 
+.h1-oudergesprekken {
   text-align: center;
   margin-bottom: 5%;
 }
 
-.h2-oudergesprekken{
-  margin-left:  1%;
+.h2-oudergesprekken {
+  margin-left: 1%;
 }
 
 .oudergesprekimg {
@@ -309,41 +310,38 @@ text-align: center;
   margin-left: 2rem;
 }
 
-.jou-moeder1{
-  
+.jou-moeder1 {
   text-align: center;
-  }
-  .zeb{
-    margin: 2rem;
-    display: flex;
+}
+
+.zeb {
+  margin: 2rem;
+  display: flex;
   flex-direction: column;
-  }
-  .link{
+}
+
+.link {
   color: red;
-  }
+}
 
 /* main BSA */
-
-.main-bsa {
-  
-}
-
-}
 
 .h1bsa {
   text-align: center;
 }
-.pbsa{
+
+.pbsa {
   display: flex;
 
 }
-.divbsa{
+
+.divbsa {
   display: flex;
-justify-content: space-between;
-flex-direction: row-reverse;
-padding: 0rem 4rem;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 0rem 4rem;
 }
- 
+
 /* main over ons */
 
 .main-overons {
@@ -357,26 +355,21 @@ padding: 0rem 4rem;
   flex-direction: row-reverse;
 }
 
-
-
 .bas-sec div {
   width: 40vw;
 }
-/* 
-.rouhi-sec img {
-  height: 800px;
-  width: 800px;
-} */
 
-.rouhi-sec{
+.rouhi-sec {
   margin-top: 5rem;
-  display: flex ;
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.rouhi-sec div{
+
+.rouhi-sec div {
   width: 40vw;
 }
+
 /* main opleidingswijzer */
 
 .main-opleidingswijzer {
@@ -398,8 +391,11 @@ table {
   background-color: lightblue;
 }
 
-table, th, tr, td {
-  border:1px solid black;
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
 }
 
 /* main locatiegids */
@@ -433,11 +429,23 @@ table, th, tr, td {
 .container-locatie img {
   width: 400px;
   height: auto;
-  
+
+}
+
+/* main software */
+
+.h1software {
+  text-align: center;
+
+}
+
+.vid {
+  display: flex;
+  width: 100vw;
+  align-items: flex-end;
 }
 
 /* footer */
-
 
 .footer {
   display: flex;
@@ -456,13 +464,105 @@ table, th, tr, td {
 
 }
 
-.h1software{
-  text-align: center;
+
+@media screen and (max-width: 576px) {
+
+  .main-opl section {
+    margin-bottom: 5%;
+  }
+
+  .softdev-flex {
+    flex-direction: column-reverse;
+  }
+
+  .softdev-flex p {
+    width: 100%;
+  }
+
+  .cmt-flex {
+    flex-direction: column;
+  }
+
+  .cmt-flex p {
+    width: 100%;
+  }
+
+  .sad-flex {
+    flex-direction: column-reverse;
+  }
+
+  .sad-flex p {
+    width: 100%;
+  }
+
+  .sad-img {
+    height: 30%;
+  }
+
+  .main-locatiegids h1 {
+    margin: 0% 3%;
+  }
+
+  .container-locatie {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container-locatie div {
+    margin: 5% 0%;
+  }
+
+  .container-locatie div img {
+    margin-top: 4%;
+  }
 
 }
 
-.vid{
-  display: flex;
-  width: 100vw;
-  align-items: flex-end;
+@media screen and (min-width: 577px) and (max-width: 768px) {
+
+  .main-opl section {
+    margin-bottom: 5%;
+  }
+
+  .softdev-flex {
+    flex-direction: column-reverse;
+  }
+
+  .softdev-flex p {
+    width: 100%;
+  }
+
+  .cmt-flex {
+    flex-direction: column;
+  }
+
+  .cmt-flex p {
+    width: 100%;
+  }
+
+  .sad-flex {
+    flex-direction: column-reverse;
+  }
+
+  .sad-flex p {
+    width: 100%;
+  }
+
+  .main-locatiegids h1 {
+    margin: 0% 6%;
+  }
+
+  .container-locatie {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container-locatie div {
+    margin: 5% 7%;
+  }
+
+  .container-locatie div img {
+    margin-top: 4%;
+  }
+
 }
